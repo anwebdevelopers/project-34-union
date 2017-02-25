@@ -1,0 +1,27 @@
+.footer {
+    padding: 20px 0 25px 0;
+    background-color: $tc;
+}
+.footer__wrapper {
+    @extend .container;
+}
+.footer__contacts {
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.2;
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: all .5s ease;
+        &:hover, &:active, &:focus {
+            color: lighten($main-color, 20%);
+            filter: saturate(1.1) brightness(1.2);
+        }
+    }
+}
+.footer__copy {
+    margin: 15px 0 0 0;
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.2;
+}

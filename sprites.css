@@ -1,0 +1,70 @@
+.icon-about, .icon-about-blue, .icon-login, .icon-login-blue, .icon-search, .icon-search-blue, .icon-survey, .icon-survey-blue, .icon-tw, .icon-fb, .icon-inst{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-about{
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.icon-about-blue{
+	background-position: 0 -44px ;
+	width: 32px;
+	height: 32px;
+}
+
+.icon-login{
+	background-position: 0 -85px ;
+	width: 26px;
+	height: 26px;
+}
+
+.icon-login-blue{
+	background-position: 0 -120px ;
+	width: 26px;
+	height: 26px;
+}
+
+.icon-search{
+	background-position: 0 -155px ;
+	width: 27px;
+	height: 28px;
+}
+
+.icon-search-blue{
+	background-position: 0 -191px ;
+	width: 27px;
+	height: 28px;
+}
+
+.icon-survey{
+	background-position: 0 -232px ;
+	width: 20px;
+	height: 30px;
+}
+
+.icon-survey-blue{
+	background-position: 0 -272px ;
+	width: 20px;
+	height: 30px;
+}
+
+.icon-tw{
+	background-position: 0 -340px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-fb{
+	background-position: 0 -309px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-inst{
+	background-position: 0 -370px ;
+	width: 23px;
+	height: 23px;
+}
+

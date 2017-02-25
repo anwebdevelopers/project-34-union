@@ -1,0 +1,28 @@
+.login {
+    padding: 10px 0 30px 0;
+}
+.login__wrapper {
+    @extend .container;
+}
+.login__box {
+    margin: 30px 0 0 0;
+}
+.login__form {
+    text-align: left;
+}
+.login__text {
+    margin: 30px 0 0 0;
+    font-size: rem(16px);
+    p {
+        margin: 10px 0;
+    }
+    a {
+        color: $main-color;
+        transition: all .5s ease;
+        &:hover, &:active, &:focus {
+            text-decoration: none;
+            color: lighten($main-color, 20%);
+            filter: saturate(1.1) brightness(1.2);
+        }
+    }
+}

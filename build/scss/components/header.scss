@@ -1,0 +1,124 @@
+.header {
+    padding: 15px 0 20px 0;
+    background-color: #fff;
+}
+.header__wrapper {
+    @extend .container;
+    @extend .clearfix;
+}
+.header__logo {
+    display: inline-block;
+    vertical-align: bottom;
+    img {
+        display: inline-block;
+        vertical-align: top;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+.header__title {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 270px;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    font-family: 'Panton';
+    font-weight: 600;
+    color: $main-color;
+    line-height: 1;
+}
+.header__contacts {
+    float: right;
+    margin: 10px 0 0 0;
+}
+.header__contacts-phone {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    a {
+        text-decoration: none;
+        color: $main-color;
+        transition: all .5s ease;
+        &:hover, &:active, &:focus {
+            color: lighten($main-color, 10%);
+            filter: saturate(1.1) brightness(1.2);
+        }
+    }
+}
+.header__social {
+    margin: 5px 0 0 0;
+    text-align: right;
+}
+.header__social-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1px;
+}
+.header__social-icon {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../img/sprites.png);
+	background-repeat: no-repeat;
+    border-radius: 2px;
+    transition: all .5s ease;
+    &:hover, &:active, &:focus {
+        background-color: lighten($main-color, 40%);
+        filter: saturate(1.1) brightness(1.2);
+    }
+}
+.icon-tw{
+	background-position: 0 -340px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-fb{
+	background-position: 0 -309px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-inst{
+	background-position: 0 -370px ;
+	width: 23px;
+	height: 23px;
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .header {
+        text-align: center;
+    }
+    .header__contacts {
+        float: none;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .header__social {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    html {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
